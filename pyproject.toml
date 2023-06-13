@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pysandbox"
+version = "0.1.0"
+description = ""
+authors = ["subhranshudas <subhranshu.opt@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pysandbox", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.2"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
