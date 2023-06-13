@@ -5,7 +5,7 @@ This is a basic attempt to understand modern Python package and environment mana
 - pyenv
 - poetry
 - pytest
-- dotenv
+- python-dotenv
 
 
 # Python setup (MAC)
